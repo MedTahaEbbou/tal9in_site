@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <button class="menu-toggle" onclick="toggleMenu()">options</button>
+
+                <div class="logo"><img src="./images/téléchargement.png" alt=""></div>
+                <div class="search-bar">
+                    <input type="text" placeholder="entre something">
+                    <button>search</button>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a href="./page2.html" class="btn">page 2</a>
+                <button onclick="showNotification()">notification</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!--side menu-->
+    <div class="side-menu" id="sideMenu">
+        <ul>
+            <li><a>home</a></li>
+            <li><a>mychanelle</a></li>
+            <li><a>subscription</a></li>    
+    </div>
+
+    <div class="notification-popup" id="notificationPopup">
+        <P>YOU HAVE 3 NEW LIKES</P>
+        <BUtton onclick="closeNotification()">CLOSE</BUtton>
+    </div>
+
+    <section class="vedio-section">
+        <h2>recomended vedios</h2>
+        <div class="vedio-grid">
+            <div class="vedio-card">
+                <img src="./images/OIP.jpeg" alt="">
+                <h3>how to lrarn html</h3>
+                <p>code with tal9in</p>
+            </div>
+            <div class="vedio-card">
+                <img src="./images/OIP.jpeg" alt="">
+                <h3>how to lrarn html</h3>
+                <p>code with tal9in</p>
+            </div>
+            <div class="vedio-card">
+                <img src="./images/OIP.jpeg" alt="">
+                <h3>how to lrarn html</h3>
+                <p>code with tal9in</p>
+            </div>
+        </div>
+        
+    </section>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
